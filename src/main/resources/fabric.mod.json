@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "maxlibrariantrades",
+	"version": "${version}",
+	"name": "MaxLibrarianTrades",
+	"description": "A server-side mod that guarantees max-level books from Librarian trades.",
+	"authors": [
+		"brainage04"
+	],
+	"contact": {
+		"homepage": "https://github.com/brainage04/MaxLibrarianTrades",
+		"sources": "https://github.com/brainage04/MaxLibrarianTrades"
+	},
+	"license": "MIT",
+	"icon": "assets/maxlibrariantrades/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.brainage04.MaxLibrarianTrades"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"accessWidener": "maxlibrariantrades.accesswidener"
+}
